@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rashil Ganshi | Sriyash Poddar</title>
+    <link>https://sriyash421.github.io/author/rashil-ganshi/</link>
+      <atom:link href="https://sriyash421.github.io/author/rashil-ganshi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rashil Ganshi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 14:03:52 +0530</lastBuildDate>
+    <image>
+      <url>https://sriyash421.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Rashil Ganshi</title>
+      <link>https://sriyash421.github.io/author/rashil-ganshi/</link>
+    </image>
+    
+    <item>
+      <title>IBM GreenHack, 2020</title>
+      <link>https://sriyash421.github.io/post/greenhack/</link>
+      <pubDate>Sat, 01 Feb 2020 14:03:52 +0530</pubDate>
+      <guid>https://sriyash421.github.io/post/greenhack/</guid>
+      <description>&lt;p&gt;So, I finally gathered up the will to participate in all night hackathon, and then teamed up with my friends for &lt;strong&gt;IBM Green Hack 2020&lt;/strong&gt; - a hackathon to develop technological solutions to tackle climate change.&lt;/p&gt;
+&lt;p&gt;My teammates began brainstorming ideas and after hours of fighting we arrived at a probable problem statement. We decided to build a service using deep learning to optimize crop yield. We spent hours finding relevant datasets, while some teamates coded up a demo frontend. After more hours of discussing, coding, fighting and yes, red bulls(thanks, Mukul 😉), we finally had a demo frontend, the deep learning model and our final presentation. Our final solution involved using DL to predict crop yield in certain weather conditions, such that farmers could utilize the above to avoid crop loss, leading to sustainable farming. We named our project &lt;strong&gt;Annapurna&lt;/strong&gt;, after the goddess of food. (Yes, we have a knack for naming projects after deities 🙏)&lt;/p&gt;
+&lt;p&gt;After a nervous presentation, we waited for sometime before the results were declared and we were declared among the top 3 teams!!!. It was a great experience and would look forward to more such experiences again.&lt;/p&gt;
+&lt;p&gt;P.S. : Received an amazing bag having a RasPi 3, RasPi camera and a whole lot of sensors. Look forward to building amazing stuff (Unfortunately, they are in my room at my university and I am at home. Damn, Covid 😢)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

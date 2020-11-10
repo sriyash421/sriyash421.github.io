@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atharva Naik | Sriyash Poddar</title>
+    <link>https://sriyash421.github.io/author/atharva-naik/</link>
+      <atom:link href="https://sriyash421.github.io/author/atharva-naik/index.xml" rel="self" type="application/rss+xml" />
+    <description>Atharva Naik</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 13:45:54 +0530</lastBuildDate>
+    <image>
+      <url>https://sriyash421.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Atharva Naik</title>
+      <link>https://sriyash421.github.io/author/atharva-naik/</link>
+    </image>
+    
+    <item>
+      <title>How Have We Reacted To The COVID-19 Pandemic? Analyzing Changing Indian Emotions Through The Lens of Twitter</title>
+      <link>https://sriyash421.github.io/publication/covid/</link>
+      <pubDate>Tue, 10 Nov 2020 13:45:54 +0530</pubDate>
+      <guid>https://sriyash421.github.io/publication/covid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
