@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Multi Agent RL"
-summary: "Exploring the problem of sequrntial social dilemmas and deep multi agent reinforcement learning in common resource pools. Currently, developing the wrapper for the fruit gathering environment using DeepMind's ACME. Doing literature review. Need to explore more of this!!"
+summary: "Exploring the problem of sequential social dilemmas and deep multi agent reinforcement learning in common resource pools. Currently, developing the wrapper for the fruit gathering environment using DeepMind's ACME. Doing literature review. Need to explore more of this!!"
 authors: []
 tags: []
 categories: []
