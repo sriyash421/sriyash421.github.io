@@ -49,7 +49,7 @@
 
 
               <p>
-                I am a first year PhD student at the University of Washington advised by  <a href="https://homes.cs.washington.edu/~abhgupta/">Abhishek Gupta</a> and <a href="https://natashajaques.ai/">Natasha Jaques</a>.
+                I am a second year PhD student at the University of Washington advised by  <a href="https://homes.cs.washington.edu/~abhgupta/">Abhishek Gupta</a> and <a href="https://natashajaques.ai/">Natasha Jaques</a>.
                 I work at the intersection of reinforcement learning and robotics.
               </p>
               
@@ -77,15 +77,14 @@
       </table>
 <!------------------------------------- Introduction --------------------------------------->
 
-<!-- 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="research">
+
+<!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="research">
   <tbody>
     <tr>
       <td style="padding-left:2.5%;padding-bottom:20px;width:100%;vertical-align:middle">
       <heading><b>Research</b></heading>
       <p>
-        I am interested in <b>human-robot interaction</b> and <b>robot learning</b> for systems that can be deployed in the real-world ensuring human safety and comfort. To this end, I explore reinforcement learning, model predicbuild and demonstrate such systems, I work on reinforcemenam interested in reinforcement learn work on real-world experiments with human subjects, collect user feedback and incorporate it to improve real-world deployment.
-        Further, to complement this, I also work on algorithmic and theoretical improvements to learning algorithms, specifically in multi-agent and lifelong learning systems.
+        My research focuses on the intersection of reinforcement learning and robotics. Broadly, my goal is to build algorithms and systems that enable foundational models to generalize to domain shifts and improve upon deployment. To this aspect, I work on building robots and LLM agents that can leverage different forms of human feedback (preferences, constraints, or demos) to rapidly adapt and fine-tune behavior at test time. Additionally, I am working on building agents that learn to improve at test-time, where the insight is to use in-context learning and RL to train foundational models to improve their actions (or responses) based on real-world interactions and feedback (akin to iterative learning control). The goal is to implement this for sim2real transfer of robot policies, to enable true generalisation across the sim-real gap.
       </p>
     </td>
   </tr>
@@ -102,9 +101,10 @@
               <heading><b>News</b></heading>
               <p>
                 <ul class="fa-ul" id="news">
-                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Oct 2023]</p> Presented our paper on crowd motion prediction and robot navigation at IROS 2023.</li>
+                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Oct 2024]</p> <a href="https://weirdlabuw.github.io/vpl">Paper</a> on learning from diverse preferences  accepted at NeurIPS 2024 (spotlight).</li>
+                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Mar 2024]</p> TA-ing a class on <a href="https://courses.cs.washington.edu/courses/cse599j/24sp/">Social Reinforcement Learning (CSE 599J) </a> at UW.</li>
+                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Oct 2023]</p> Presented our <a href="https://arxiv.org/abs/2303.01424">paper</a> on crowd motion prediction and robot navigation at IROS 2023.</li>
                   <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Sep 2023]</p> Starting my PhD at the University of Washington in Seattle!</li>
-                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Sep 2023]</p> Graduated with a BTech./MTech. from IIT Kharagpur. Thanks kgp! </li>
                 </ul>
 
                 <!-- OLDER NEWS -->
@@ -114,7 +114,9 @@
                   </p>
 
                   <div id="old_news_button" style="display:none;">
-                    <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Nov 2022]</p> <a href="https://arxiv.org/abs/2109.05084">Paper</a> on crowd navigation via topological invariance accepted in R-AL 2022. </li>
+                    
+                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Sep 2023]</p> Graduated with a BTech./MTech. from IIT Kharagpur. Thanks kgp! </li>
+                  <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Nov 2022]</p> <a href="https://arxiv.org/abs/2109.05084">Paper</a> on crowd navigation via topological invariance accepted in R-AL 2022. </li>
                   <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Aug 2022]</p> New <a href="https://drive.google.com/file/d/1HjtfSxH1devJmNbwch-yZGzC_c5evFg9/view?usp=sharing"> preprint </a> on topology and reward aware embeddings in continual learning.  </li>
                   <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Aug 2022]</p> Teaching Assistant for the Reinforcement Learning (CS60027) Couse in Autumn 22-23 Semester. </li>
                   <li><i class="fa fa-chevron-right"></i> <p style="display:inline;color:#ff0066;">[Aug 2022]</p> Attending the <a href="https://cmmrs.mpi-sws.org/">Cornell Maryland Max Planck Predoctoral Research Summer School 2022</a> in Saarbruecken, Germany! </li>
@@ -158,6 +160,27 @@
         </table>
       
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        
+        <td style="padding-left:35px;padding-bottom:20px;width:100%;vertical-align:left">
+          <a href="#">
+            <papertitle>Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning
+            </papertitle>
+          </a>
+          <br>
+          Sriyash Poddar*, Yanming Wan*, Hamish Ivison, Abhishek Gupta^, Natasha Jaques^
+          <br>
+          <!-- <br> -->
+          <em> NeurIPS 2024 (spotlight) </em> .
+          <br>
+          <!-- <br> -->
+          <a class="button" href="https://arxiv.org/abs/2408.10075v1"><i class="fa fa-file-text" aria-hidden="true"></i> paper</a>
+          &nbsp
+          <a class="button" href="https://github.com/WEIRDLabUW/vpl_llm"><i class="fa fa-code" aria-hidden="true"></i> code</a>
+          &nbsp
+          <a class="button" href="https://youtu.be/VbDrPV7iux4"><i class="fa fa-video-camera" aria-hidden="true"></i> video</a> 
+          <p></p>
+        </td>
+      </tr>
 
         <td style="padding-left:35px;padding-bottom:20px;width:100%;vertical-align:left">
           <a href="#">
@@ -202,13 +225,14 @@
 
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> 
         <td style="padding-left:35px;padding-bottom:20px;width:100%;vertical-align:left">
-            <a href="https://drive.google.com/file/d/1HjtfSxH1devJmNbwch-yZGzC_c5evFg9/view?usp=sharing">
-              <papertitle>TRACE: Topologically Constrained Reward Aware Action Embeddings for Life-Long Reinforcement Learning</papertitle>
+            <a href="https://patents.google.com/patent/US20230342425A1/en">
+              <papertitle>Optimal sequential decision making with changing action space
+              </papertitle>
             </a>
             <br>
-            Sriyash Poddar, Tanay Anand, Pinkesh Badjatiya, Jayakumar Subramanian, Georgios Theocharous, Balaji K.
+            Tanay Anand, Pinkesh Badjatiya, Sriyash Poddar, Jayakumar Subramanian, Georgios Theocharous, Balaji Krishnamurthy
             <br>
-            <em> US Patent filed for Adobe Research </em>.
+            <em> US Patent App. 17/659,983, 2023 </em>.
             <br>
             <!-- <br> -->
             <!-- <i class="fa fa-file-text" aria-hidden="true"></i><a href="https://arxiv.org/abs/2109.14700">paper</a> -->
@@ -333,6 +357,16 @@
         </tr>
       </tbody>
       </table>
+
+      <table width="100%" align="center" border="0" cellpadding="10" style="padding-left: 20px;padding-bottom: 0px;"><tbody>
+        <tr>
+          <!-- <td style="padding-left:20px;width:15%;vertical-align:middle"><img src="images/rss2021.png" style="border-radius:15%;"></td> -->
+          <td width="75%" valign="center">
+            <a href="https://courses.cs.washington.edu/courses/cse599j/24sp/">Teaching Assistant: Social Reinforcement Learning (CSE599J)</a>
+            <p></p><em>University of Washington</em>, Spring 2024
+            <p></p>
+          </td>
+        </tr>
     
       <table width="100%" align="center" border="0" cellpadding="10" style="padding-left: 20px;padding-bottom: 0px;"><tbody>
         <tr>
